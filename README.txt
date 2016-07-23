@@ -21,8 +21,11 @@ The end result should look like what's pictured in 8_case.jpg (note that the hol
 
 Lastly,
 Find or make a hologram video and play it on your device.
-(I found that making a .gif did not tax the Raspberry Pi Zero as hard as a video did)
-NOTE: to properly view the hologram, view it perpendicularly to the pitft screen.
+(I found that making a .gif works better for the 2.2 inch ptft display because the display will not play large resolution videos)
 
-For more information, please view the images included in the documentation folder of this project.
+For more information on the building process, please view the images included in the documentation folder of this project.
 Each image name corresponds to the order of each step in the process of making the console.
+
+Now that the console is made, the software will need to be installed.
+I found that hooking up the Raspberry Pi Zero to a USB hub with a keyboard, mouse, and ethernet adapter makes this process very simple.
+Simply follow all the instructions in "install.sh" found in the documentation folder of this project.
